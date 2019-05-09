@@ -1,2 +1,2 @@
-# Duplicates--rm
+# Duplicates-rm
 Duplicated images remover 
