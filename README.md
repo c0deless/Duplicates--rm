@@ -1,6 +1,6 @@
 # Duplicate Image Finder
 
-![](https://api.travis-ci.org/philipbl/duplicate-images.svg)
+
 
 This Python script finds duplicate images using a [perspective hash (pHash)](http://www.phash.org) to compare images. pHash ignores the image size and file size and instead creates a hash based on the pixels of the image. This allows you to find duplicate pictures that have been rotated, have changed metadata, and slightly edited.
 
@@ -19,10 +19,8 @@ This script requires MongoDB, Python 3.4 or higher, and a few Python modules, as
 
 I suggest you read the usage, but here are the steps to get started right away. These steps assume that MongoDB is already installed on the system.
 
-First, install this script. This can be done by either cloning the repository or [downloading the script](https://github.com/philipbl/duplicate-images/archive/master.zip).
-```bash
-git clone https://github.com/philipbl/duplicate-images.git
-```
+First, install this script. This can be done by either cloning the repository or [downloading the script](https://github.com/c0deless/Duplicates--rm.git).
+
 
 Next, download all required modules. This script has only been tested with Python 3. I would suggest that you make a virtual environment, setting Python 3 as the default python executable (`mkvirtualenv --python=/usr/local/bin/python3 <name>`)
 ```bash
